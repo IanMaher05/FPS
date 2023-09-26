@@ -25,11 +25,10 @@ public class PlayerCam : MonoBehaviour
         // get mouse input
         float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
         float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY;
-
+        //making sure that you can move camera more then 90 degrees
         yRotation += mouseX;
 
         xRotation -= mouseY;
-        //making sure that you can move camera more then 90 degrees
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
         // rotate cam and orientation
