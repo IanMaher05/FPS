@@ -1076,7 +1076,7 @@ GameObject:
   - component: {fileID: 1485464419}
   m_Layer: 8
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Selectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1438,6 +1438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectableTag: Selectable
   highlightMaterial: {fileID: 2100000, guid: 226e4313559176e46bf868d2fa07ca03, type: 2}
+  defaultMaterial: {fileID: 2100000, guid: 13ac923007269a54197bc70a830d7aef, type: 2}
 --- !u!4 &1839330729
 Transform:
   m_ObjectHideFlags: 0
