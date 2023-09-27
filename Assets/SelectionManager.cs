@@ -30,6 +30,7 @@ public class SelectionManager : MonoBehaviour
                 if (selectionRenderer != null)
                 {
                     selectionRenderer.material = highlightMaterial;
+                    Debug.Log(hit.transform.position);
                 }
 
                 _selection = selection;
